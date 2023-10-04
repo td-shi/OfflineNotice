@@ -3,12 +3,12 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
-    <title>UTX viewer</title>
+    <title>Offline Notice</title>
     <link rel="icon" href="favicon.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css" />
     <link  rel="stylesheet" href="css/common.css" />
     <link rel="manifest" href="manifest.json" />
-    <script src="https://unpkg.com/maquette@3.3.4/dist/maquette.umd.js"></script>
+    <script src="https://unpkg.com/maquette@3.6.0/dist/maquette.umd.js"></script>
   </head>
   <body>
     <div id="fused">
@@ -529,15 +529,12 @@
           aHrThemeColored,
           h('p', {}, [
             h('small', {}, [
-              "2021 TD-shi PD(CC0). ",
+              "2023 TD-shi PD(CC0). ",
               "OSS are ",
               aA("https://maquettejs.org", "Maquette", ".oss"),
               " and ",
               aA("https://github.com/hankchizljaw/modern-css-reset", "Modern CSS reset", ".oss"),
-              ". ",
-              "The glossary format is based on ",
-              aA("https://aamt.info/wp-content/uploads/2019/06/utx1.20-specification-j.pdf", "UTX1.20 仕様", ".oss"),
-              "."
+              ". "
             ])
           ])
         ]),
@@ -572,8 +569,8 @@
       orgaRecordMapping.map(shelf.getRecord(appArgs.mem.searchWord));
       orgaGlossaryIgnoreMapping.map(shelf.getInfos());
 
-      vPage.append(document.body, tHeader.frame);
-      vPage.append(document.body, tMain.frame);
+      // vPage.append(document.body, tHeader.frame);
+      // vPage.append(document.body, tMain.frame);
       vPage.append(document.body, tFooter.frame);
     });
 

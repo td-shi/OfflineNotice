@@ -1,14 +1,14 @@
 let CACHE_NAME  = "UTX120V-cache-v1";
 let urlsToCache = [
-    "https://td-shi.github.io/UtxViewer/index.html",
-    "https://td-shi.github.io/UtxViewer/favicon.svg",
-    "https://td-shi.github.io/UtxViewer/css/common.css",
-    "https://td-shi.github.io/UtxViewer/js/gutil.js",
-    "https://td-shi.github.io/UtxViewer/img/search.svg",
-    "https://td-shi.github.io/UtxViewer/img/menu.svg",
-    "https://td-shi.github.io/UtxViewer/img/delete.svg",
+    "https://td-shi.github.io/OfflineNotice/index.html",
+    "https://td-shi.github.io/OfflineNotice/favicon.svg",
+    "https://td-shi.github.io/OfflineNotice/css/common.css",
+    "https://td-shi.github.io/OfflineNotice/js/gutil.js",
+    "https://td-shi.github.io/OfflineNotice/img/search.svg",
+    "https://td-shi.github.io/OfflineNotice/img/menu.svg",
+    "https://td-shi.github.io/OfflineNotice/img/delete.svg",
     "https://unpkg.com/modern-css-reset/dist/reset.min.css",
-    "https://unpkg.com/maquette@3.3.4/dist/maquette.umd.js"
+    "https://unpkg.com/maquette@3.6.0/dist/maquette.umd.js"
 ];
 
 self.addEventListener('install', function(event) {
