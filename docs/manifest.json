@@ -1,25 +1,25 @@
 {
-  "name": "The Universal Terminology eXchange (UTX) 1.20 viewer",
-  "short_name": "UTX viewer",
-  "description": "UTX viewer.",
+  "name": "The Offline Notice",
+  "short_name": "Offline Notice",
+  "description": "Offline Notice.",
   "icons": [
       {
-        "src": "https://td-shi.github.io/UtxViewer/favicon.svg",
+        "src": "https://td-shi.github.io/OfflineNotice/favicon.svg",
         "sizes": "32x32",
         "type": "image/svg+xml"
       },
       {
-        "src": "https://td-shi.github.io/UtxViewer/app.svg",
+        "src": "https://td-shi.github.io/OfflineNotice/app.svg",
         "sizes": "192x192",
         "type": "image/svg+xml"
       },
       {
-        "src": "https://td-shi.github.io/UtxViewer/app.png",
+        "src": "https://td-shi.github.io/OfflineNotice/app.png",
         "sizes": "192x192",
         "type": "image/png"
       }
   ],
-  "start_url": "https://td-shi.github.io/UtxViewer/index.html",
+  "start_url": "https://td-shi.github.io/OfflineNotice/index.html",
   "display": "standalone",
   "background_color": "whitesmoke",
   "theme_color": "blueviolet"
